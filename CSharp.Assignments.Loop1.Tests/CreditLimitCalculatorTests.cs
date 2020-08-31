@@ -14,7 +14,7 @@ namespace CSharp.Assignments.Loop1.Tests
         [TestCase(Case2, Description = Case2)]
         [TestCase(Case3, Description = Case3)]
         [TestCase(Case4, Description = Case4)]
-        [Category("Selection")]
+        [Category("Sentinel")]
         public void TestCreditLimitCalculator(string testCase)
         {
             Action app = new Action(CreditLimitCalculator.Main);

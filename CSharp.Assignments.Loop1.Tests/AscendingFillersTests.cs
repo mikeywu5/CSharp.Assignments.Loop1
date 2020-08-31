@@ -6,7 +6,7 @@ namespace CSharp.Assignments.Loop1.Tests
 {
     public class AscendingFillersTests
     {
-        [Category("Loop")]
+        [Category("Sentinel")]
         [TestCase(ExpectedResult = 0)]
         [TestCase(-1, 10, 20, ExpectedResult = 0)]
         [TestCase(5, ExpectedResult = 0)]

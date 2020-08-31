@@ -16,7 +16,7 @@ namespace CSharp.Assignments.Loop1.Tests
         [TestCase(Case3, Description = Case3)]
         [TestCase(Case4, Description = Case4)]
         [TestCase(Case5, Description = Case5)]
-        [Category("Sentinel Loop")]
+        [Category("Sentinel")]
         public void TestGasMileage(string testCase)
         {
             Action app = new Action(GasMileage.Main);

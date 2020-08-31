@@ -12,7 +12,7 @@ namespace CSharp.Assignments.Loop1.Tests
         [TestCase(3, ExpectedResult = new[] { 0, 0, 1, 0, 2, 1, 3, 2, 1 })]
         [TestCase(4, ExpectedResult = new[] { 0, 0, 0, 1, 0, 0, 2, 1, 0, 3, 2, 1, 4, 3, 2, 1 })]
         [TestCase(6, ExpectedResult = new[] { 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 1, 0, 0, 0, 3, 2, 1, 0, 0, 4, 3, 2, 1, 0, 5, 4, 3, 2, 1, 6, 5, 4, 3, 2, 1 })]
-        [Category("Loop")]
+        [Category("Nested Loop")]
 
         public int[] TestSquareUp(int size)
         {
